@@ -803,7 +803,7 @@ extension Collection where Element: CarbEntry {
     ///   - effectVelocities: A timeline of glucose effect velocities, ordered by start date
     ///   - carbRatio: The timeline of carb ratios, in grams per unit
     ///   - insulinSensitivity: The timeline of insulin sensitivities, in units of insulin per glucose-unit, covering the carb entries
-    ///   - absorptionTimeOverrun: A multiplier for determining the minimum absorption time from the specified absorption time
+    ///   - absorptionTimeOverrun: A multiplier for determining the maximum absorption time from the specified absorption time
     ///   - defaultAbsorptionTime: The absorption time to use for unspecified carb entries
     ///   - delay: The time to delay the dose effect
     /// - Returns: A new array of `CarbStatus` values describing the absorbed carb quantities
